@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE563B9E251F6773009A5F40 /* ド.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE563B9D251F676F009A5F40 /* ド.m4a */; };
+		CE563BA025204576009A5F40 /* レ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE563B9F25204576009A5F40 /* レ.m4a */; };
 		CE64E83B2518473B0017D269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64E83A2518473B0017D269 /* AppDelegate.swift */; };
 		CE64E83D2518473B0017D269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64E83C2518473B0017D269 /* SceneDelegate.swift */; };
 		CE64E83F2518473B0017D269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64E83E2518473B0017D269 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE563B9D251F676F009A5F40 /* ド.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ド.m4a"; path = "音階素材/ド.m4a"; sourceTree = "<group>"; };
+		CE563B9F25204576009A5F40 /* レ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "レ.m4a"; sourceTree = "<group>"; };
 		CE64E8372518473B0017D269 /* 10 Holes Harmonica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10 Holes Harmonica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE64E83A2518473B0017D269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE64E83C2518473B0017D269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				CE64E83C2518473B0017D269 /* SceneDelegate.swift */,
 				CE64E83E2518473B0017D269 /* ViewController.swift */,
 				CE64E8402518473B0017D269 /* Main.storyboard */,
+				CE563B9D251F676F009A5F40 /* ド.m4a */,
+				CE563B9F25204576009A5F40 /* レ.m4a */,
 				CE64E8432518473D0017D269 /* Assets.xcassets */,
 				CE64E8452518473D0017D269 /* LaunchScreen.storyboard */,
 				CE64E8482518473D0017D269 /* Info.plist */,
@@ -131,6 +137,8 @@
 				CE64E8472518473D0017D269 /* LaunchScreen.storyboard in Resources */,
 				CEC89E472518EBFE00DF4F09 /* 音階素材 in Resources */,
 				CE64E8442518473D0017D269 /* Assets.xcassets in Resources */,
+				CE563BA025204576009A5F40 /* レ.m4a in Resources */,
+				CE563B9E251F6773009A5F40 /* ド.m4a in Resources */,
 				CE64E8422518473B0017D269 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

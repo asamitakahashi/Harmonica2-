@@ -7,45 +7,61 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var Picker: UIPickerView!
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-    let dataList = [
-        "C","Db","D","Eb","E","F","G","Ab","A","Bb","B",
-    ]
+    var audioPlayer:AVAudioPlayer!
+
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    @IBOutlet weak var button5: UIButton!
+    @IBOutlet weak var button6: UIButton!
+    @IBOutlet weak var button7: UIButton!
+    @IBOutlet weak var button8: UIButton!
+    @IBOutlet weak var button9: UIButton!
+    @IBOutlet weak var button10: UIButton!
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 再生する audio ファイルのパスを取得
+        let audioPath = Bundle.main.path(forResource: "ド", ofType:"m4a")!
+        let audioUrl = URL(fileURLWithPath: audioPath)
+                
+        // auido を再生するプレイヤーを作成する
+        var audioError:NSError?
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: audioUrl)
+        } catch let error as NSError {
+            audioError = error
+            audioPlayer = nil
+        }
+        
+        // エラーが起きたとき
+        if let error = audioError {
+            print("Error \(error.localizedDescription)")
+        }
+        
+        audioPlayer.delegate = self
+        audioPlayer.prepareToPlay()
         
     }
     
-    // UIPickerViewの列の数
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+    // ボタンがタップされた時の処理
+    @IBAction func button(_ sender: Any) {
+        audioPlayer.play()
+        button.setTitle("❶", for: UIControl.State())
     }
-    
-    // UIPickerViewの行数、リストの数
-    func pickerView(_ pickerView: UIPickerView,
-                    numberOfRowsInComponent component: Int) -> Int {
-        return dataList.count
-    }
-    
-    // UIPickerViewの最初の表示
-    func pickerView(_ pickerView: UIPickerView,
-                    titleForRow row: Int,
-                    forComponent component: Int) -> String? {
-        
-        return dataList[row]
+
+    @IBAction func Button(_ sender: Any) {
+    audioPlayer.stop()
+        button.setTitle("①", for: UIControl.State())
     }
 
 }
-
-
-
-//1つ目は，キーの選択　カタカナ表記と英語表記  キー　ド　　ドれミふぁソらしド　キーC CDEFGABC
-//2つ目は，移動ドの表記．ドれミ表記か，CDE表記か，off．
-

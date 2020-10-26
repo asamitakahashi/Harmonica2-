@@ -10,6 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_0_Holes_Harmonica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
@@ -19,7 +20,7 @@
                                 <rect key="frame" x="44" y="5" width="808" height="404"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2144" id="cpo-Lp-Erx">
-                                        <rect key="frame" x="546" y="5" width="264" height="202"/>
+                                        <rect key="frame" x="568" y="5" width="242" height="202"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6D-YB-poa">
@@ -47,21 +48,17 @@
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Bek-wh-Wte" userLabel="上段Stack View">
-                                        <rect key="frame" x="36" y="48" width="462" height="54"/>
+                                        <rect key="frame" x="36" y="48" width="484" height="54"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trt-oC-o13">
-                                                <rect key="frame" x="0.0" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Kjm-MA-Fcm"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="Voc-jD-iUS"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V65-cG-2zr">
-                                                <rect key="frame" x="46" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="48.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,7 +66,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2t-ht-OVk">
-                                                <rect key="frame" x="92.5" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="97" y="0.0" width="48" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -77,7 +74,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtY-Dz-pdf">
-                                                <rect key="frame" x="138.5" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="145" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -85,7 +82,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAg-N0-wXu">
-                                                <rect key="frame" x="185" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="193.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -93,7 +90,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6X-A8-nez">
-                                                <rect key="frame" x="231" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="242" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -101,7 +98,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfW-yO-ntj">
-                                                <rect key="frame" x="277" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="290.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -109,7 +106,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTl-6a-00a">
-                                                <rect key="frame" x="323.5" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="339" y="0.0" width="48" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,19 +114,15 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3r-Jd-t5z">
-                                                <rect key="frame" x="369.5" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="387" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="uMA-Pg-PT1"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="8bn-qj-JbT"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drw-ES-Opz">
-                                                <rect key="frame" x="416" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="435.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="10 ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -139,21 +132,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="exh-0A-CSv" userLabel="上段2 Stack View">
-                                        <rect key="frame" x="36" y="19" width="462" height="54"/>
+                                        <rect key="frame" x="36" y="19" width="484" height="54"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhO-e4-fa2">
-                                                <rect key="frame" x="0.0" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="　">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="mwS-X1-jdL"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="0gM-yv-aOu"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPH-YP-lo6">
-                                                <rect key="frame" x="46" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="48.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="　">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -161,7 +150,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n52-MH-nul">
-                                                <rect key="frame" x="92.5" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="97" y="0.0" width="48" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -169,7 +158,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbj-oO-14j">
-                                                <rect key="frame" x="138.5" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="145" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="　">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -177,7 +166,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhG-bT-YeI">
-                                                <rect key="frame" x="185" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="193.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="　">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -185,7 +174,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFd-ZG-XXH">
-                                                <rect key="frame" x="231" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="242" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="　">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -193,7 +182,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIs-PM-zNb">
-                                                <rect key="frame" x="277" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="290.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="　">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -201,7 +190,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKb-NS-xWU">
-                                                <rect key="frame" x="323.5" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="339" y="0.0" width="48" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -209,19 +198,15 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2b-ba-zyb">
-                                                <rect key="frame" x="369.5" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="387" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="BPq-yA-VGS"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="f1M-pI-Wdd"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bQ-AM-9i9">
-                                                <rect key="frame" x="416" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="435.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="10 ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -235,22 +220,18 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="XcW-4B-wFU" userLabel="下段Stack View">
-                                        <rect key="frame" x="36" y="175" width="462" height="54"/>
+                                        <rect key="frame" x="36" y="175" width="484" height="54"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEN-rm-WJ6">
-                                                <rect key="frame" x="0.0" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="UrA-pJ-Bat"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="5JU-sT-HUH"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgf-EQ-nkg">
-                                                <rect key="frame" x="46" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="48.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -258,19 +239,15 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-b1-oft">
-                                                <rect key="frame" x="92.5" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="97" y="0.0" width="48" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="42K-5d-p4R"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="4Oy-og-QJn"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJs-ZW-hVg">
-                                                <rect key="frame" x="138.5" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="145" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -278,7 +255,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4g-E8-1nm">
-                                                <rect key="frame" x="185" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="193.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -286,7 +263,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFe-CN-IUC">
-                                                <rect key="frame" x="231" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="242" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -294,19 +271,15 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7g-rA-pIc">
-                                                <rect key="frame" x="277" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="290.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="riJ-wB-eqD"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="0To-cO-xpt"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYk-7a-vir">
-                                                <rect key="frame" x="323.5" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="339" y="0.0" width="48" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -314,31 +287,39 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lf-b1-00o">
-                                                <rect key="frame" x="369.5" y="0.0" width="46.5" height="54"/>
+                                                <rect key="frame" x="387" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="p9n-Cb-wLw"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="5hu-EJ-Pui"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wuz-FX-5oA">
-                                                <rect key="frame" x="416" y="0.0" width="46" height="54"/>
+                                                <rect key="frame" x="435.5" y="0.0" width="48.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <state key="normal" title="10">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Sdg-E1-AKA"/>
-                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="a6N-Fe-GEV"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgn-YK-YeH" userLabel="C">
+                                        <rect key="frame" x="689" y="8" width="26" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title=" C"/>
+                                        <connections>
+                                            <action selector="HMCTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNu-zT-S1r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ov-7r-clR" userLabel="C">
+                                        <rect key="frame" x="735" y="19" width="26" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="G"/>
+                                        <connections>
+                                            <action selector="HMGTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vls-d3-noy"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -352,7 +333,6 @@
                                     <constraint firstItem="cpo-Lp-Erx" firstAttribute="leading" secondItem="OXJ-eV-O2V" secondAttribute="trailing" constant="18" id="L3Q-6E-MLi"/>
                                     <constraint firstItem="exh-0A-CSv" firstAttribute="trailing" secondItem="Bek-wh-Wte" secondAttribute="trailing" id="OWD-mz-d9U"/>
                                     <constraint firstItem="XcW-4B-wFU" firstAttribute="trailing" secondItem="Bek-wh-Wte" secondAttribute="trailing" id="Phw-Yd-jnh"/>
-                                    <constraint firstAttribute="trailing" secondItem="cpo-Lp-Erx" secondAttribute="trailing" constant="10" id="RCW-8k-0m9"/>
                                     <constraint firstItem="cpo-Lp-Erx" firstAttribute="trailing" secondItem="ldh-dO-HcI" secondAttribute="trailing" constant="2" id="YdK-NE-Tc7"/>
                                     <constraint firstItem="XcW-4B-wFU" firstAttribute="leading" secondItem="OXJ-eV-O2V" secondAttribute="leading" constant="16" id="Zhc-mh-HdR"/>
                                     <constraint firstItem="1py-tb-kxE" firstAttribute="leading" secondItem="ldh-dO-HcI" secondAttribute="leading" id="bNH-sw-g5y"/>
@@ -365,7 +345,7 @@
                                 <viewLayoutGuide key="safeArea" id="ldh-dO-HcI"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="tKv-Gx-vnA" userLabel="白鍵Stack View">
-                                <rect key="frame" x="44" y="356" width="791" height="33"/>
+                                <rect key="frame" x="44" y="348" width="783" height="33"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sQ-Zn-iFe">
                                         <rect key="frame" x="0.0" y="0.0" width="31.5" height="33"/>
@@ -374,318 +354,214 @@
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="L2r-MU-2LY"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="XGA-Mm-Yda"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mo9-My-23e">
-                                        <rect key="frame" x="31.5" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="31.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="D">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="VeG-mv-m6j"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="oyF-0Y-kuA"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ic-f3-HPI">
-                                        <rect key="frame" x="63.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="62.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="E">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="k5l-Hi-kE1"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="P18-R2-WdY"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbV-Fb-kCV">
-                                        <rect key="frame" x="95" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="94" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Xkp-I2-mWK"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="VBf-vv-lMc"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmT-Cf-gxP">
-                                        <rect key="frame" x="126.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="125.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="G">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="XSc-BF-Vrw"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="YuI-xF-8pe"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W26-C0-ZOY">
-                                        <rect key="frame" x="158" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="156.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="A">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="L2P-oX-Nsg"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="cFC-gF-BaA"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hD5-r6-lkD">
-                                        <rect key="frame" x="190" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="188" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="B">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Qiy-AI-40u"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="lO6-RB-ZlC"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEY-q6-Yva">
-                                        <rect key="frame" x="221.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="219" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="C">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="szk-mn-Kmh"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="jRb-ZA-6ec"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmg-c6-Zg1">
-                                        <rect key="frame" x="253" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="250.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="D">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="atR-rt-4QJ"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="MQg-UZ-HAv"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fZ-pu-cwb">
-                                        <rect key="frame" x="285" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="282" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="E">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="x1T-2h-lXb"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="b7j-5r-nLm"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1v-31-arc">
-                                        <rect key="frame" x="316.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="313" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="5o7-6K-TSL"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="xv3-mO-xXw"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmh-9l-f1e">
-                                        <rect key="frame" x="348" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="344.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="G">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="LK3-jw-o5M"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="Iso-pl-WJp"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MK-x9-KEB">
-                                        <rect key="frame" x="379.5" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="376" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="A">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="fGh-Q8-ofp"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="7Gz-17-wsO"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYH-Ur-Puj">
-                                        <rect key="frame" x="411.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="407" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="B">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="rCo-2I-RLG"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="c11-03-YpC"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4v-mj-WGD">
-                                        <rect key="frame" x="443" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="438.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="C">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Hcm-6G-dlQ"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="skR-wX-4pS"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnB-ts-B8H">
-                                        <rect key="frame" x="474.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="470" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="D">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="hNU-mg-Dmv"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="82U-Zp-vdr"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZC-uw-njZ">
-                                        <rect key="frame" x="506" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="501" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="E">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="thD-cb-XiX"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="iMW-v3-kP0"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPD-oM-n5f">
-                                        <rect key="frame" x="538" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="532.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="oEb-Kf-vnG"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="TYM-By-4I3"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HG-dp-Ox4">
-                                        <rect key="frame" x="569.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="564" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="G">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="JCg-5l-Wnc"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="y5V-xy-cVK"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ba-Zp-tuw">
-                                        <rect key="frame" x="601" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="595" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="A">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="ZVZ-bg-vcr"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="gVO-s9-fwf"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgR-g5-PmJ">
-                                        <rect key="frame" x="633" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="626.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="B">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Y2G-pW-6v8"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="bKb-F2-mMg"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMS-1l-qnW">
-                                        <rect key="frame" x="664.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="657.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="C">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="R8D-cs-Bgt"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="F6t-q2-DvZ"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3b-y0-ZEZ">
-                                        <rect key="frame" x="696" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="689" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="D">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="xaE-Gr-tyG"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="Ap1-1W-bqQ"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzB-F2-iaH">
-                                        <rect key="frame" x="727.5" y="0.0" width="32" height="33"/>
+                                        <rect key="frame" x="720.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="E">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="U5F-Y9-X65"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="Dmy-qM-7EL"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aks-t7-y2p">
-                                        <rect key="frame" x="759.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="751.5" y="0.0" width="31.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="1Vn-3x-UoA"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="qzk-Z9-78b"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5yQ-sX-b4k" userLabel="下段2 Stack View">
-                                <rect key="frame" x="80" y="210" width="462" height="54"/>
+                                <rect key="frame" x="80" y="210" width="484" height="54"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wN-v1-UQb">
-                                        <rect key="frame" x="0.0" y="0.0" width="46" height="54"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="1">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Led-lw-qgw"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="OmY-Tz-4vZ"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNQ-sM-fdo">
-                                        <rect key="frame" x="46" y="0.0" width="46.5" height="54"/>
+                                        <rect key="frame" x="48.5" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="2">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -693,7 +569,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhJ-0V-mGL">
-                                        <rect key="frame" x="92.5" y="0.0" width="46" height="54"/>
+                                        <rect key="frame" x="97" y="0.0" width="48" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="3">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -701,7 +577,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1i-Z9-eD6">
-                                        <rect key="frame" x="138.5" y="0.0" width="46.5" height="54"/>
+                                        <rect key="frame" x="145" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="4">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -709,7 +585,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrO-wH-HBT">
-                                        <rect key="frame" x="185" y="0.0" width="46" height="54"/>
+                                        <rect key="frame" x="193.5" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="5">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -717,7 +593,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgM-R0-ytf">
-                                        <rect key="frame" x="231" y="0.0" width="46" height="54"/>
+                                        <rect key="frame" x="242" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="6">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -725,7 +601,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrM-u1-om2">
-                                        <rect key="frame" x="277" y="0.0" width="46.5" height="54"/>
+                                        <rect key="frame" x="290.5" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -733,7 +609,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCL-Q8-3OZ">
-                                        <rect key="frame" x="323.5" y="0.0" width="46" height="54"/>
+                                        <rect key="frame" x="339" y="0.0" width="48" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -741,19 +617,15 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxI-HH-xhY">
-                                        <rect key="frame" x="369.5" y="0.0" width="46.5" height="54"/>
+                                        <rect key="frame" x="387" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="AcL-CI-DAS"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="hao-bh-49t"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8N-it-Yoi">
-                                        <rect key="frame" x="416" y="0.0" width="46" height="54"/>
+                                        <rect key="frame" x="435.5" y="0.0" width="48.5" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -763,325 +635,225 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="mxC-Or-FvQ" userLabel="黒鍵Stack View">
-                                <rect key="frame" x="64" y="292" width="786" height="33"/>
+                                <rect key="frame" x="69" y="292" width="773" height="33"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6d-ws-azu">
-                                        <rect key="frame" x="0.0" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Db">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="i0H-5z-Di4"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="uj7-Zz-PJU"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMF-O0-wd6">
-                                        <rect key="frame" x="31.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="31" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Eb">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="s3M-za-uFV"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="SuM-df-mhh"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hB-Al-kL0">
-                                        <rect key="frame" x="63" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="62" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="wEp-7W-uIl"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="weN-Rg-Xqg"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJz-Rl-DDc">
-                                        <rect key="frame" x="94.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="93" y="0.0" width="30.5" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F♯">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="4S7-jT-bvo"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="gfn-Zp-krp"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWa-gH-K6V">
-                                        <rect key="frame" x="126" y="0.0" width="31" height="33"/>
+                                        <rect key="frame" x="123.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Ab">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="bHB-Ak-oMm"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="jjn-87-dNt"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbA-q8-U92">
-                                        <rect key="frame" x="157" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="154.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Bｂ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="OKy-rY-2ow"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="WoL-j2-SiI"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1a-P3-4Uc">
-                                        <rect key="frame" x="188.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="185.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="hNq-30-Kl9"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="krc-R1-dkl"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6VD-8Z-6Ty">
-                                        <rect key="frame" x="220" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="216.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Db">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="NHs-cu-hB4"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="wVM-EK-kpv"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5EX-RQ-otz">
-                                        <rect key="frame" x="251.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="247.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Eb">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="ZPH-Zd-33U"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="OvH-44-l6M"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bna-yF-zIM">
-                                        <rect key="frame" x="283" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="278.5" y="0.0" width="30.5" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="KXF-jg-9bZ"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="KAf-hl-tyc"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-jS-P82">
-                                        <rect key="frame" x="314.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="309" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F＃">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="hBj-hP-VK8"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="5so-ss-Wpw"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rED-eI-uNS">
-                                        <rect key="frame" x="346" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="340" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Aｂ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="MLj-9b-f9P"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="dPY-eg-W2M"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NJ-F1-3oA">
-                                        <rect key="frame" x="377.5" y="0.0" width="31" height="33"/>
+                                        <rect key="frame" x="371" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Bｂ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="qHt-N2-g64"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="tsb-gz-fwe"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ic-9R-Frr">
-                                        <rect key="frame" x="408.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="402" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="pom-jL-siN"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="La7-Ui-6FK"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QtG-uh-uK5">
-                                        <rect key="frame" x="440" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="433" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Db">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="A0o-JM-Pnv"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="aLz-vD-49i"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfB-cA-wTO">
-                                        <rect key="frame" x="471.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="464" y="0.0" width="30.5" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Eb">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="w9h-Nq-KL4"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="2Be-qK-KLo"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAR-zV-aZt">
-                                        <rect key="frame" x="503" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="494.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="mye-SH-6ZO"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="sut-ql-ehm"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3Y-Ce-WD8">
-                                        <rect key="frame" x="534.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="525.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F＃">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="9Wc-3G-0Gv"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="hK3-2v-OX8"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xv0-Sf-bAK">
-                                        <rect key="frame" x="566" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="556.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Ab">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="fCa-mw-EcK"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="jum-qJ-ksP"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgz-vQ-OIW">
-                                        <rect key="frame" x="597.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="587.5" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Bb">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="eQj-uy-aeJ"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="8RM-if-zxo"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F85-Zr-u5k">
-                                        <rect key="frame" x="629" y="0.0" width="31" height="33"/>
+                                        <rect key="frame" x="618.5" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="ifB-BE-fHS"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="QJ3-35-I5n"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppg-qy-sPc">
-                                        <rect key="frame" x="660" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="649.5" y="0.0" width="30.5" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Db">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="BGV-BG-KGs"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="mK1-iR-fgb"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFM-7H-8Xv">
-                                        <rect key="frame" x="691.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="680" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="Eb">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="F4c-rU-hDW"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="Akn-Gp-Xw4"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeF-O5-jVb">
-                                        <rect key="frame" x="723" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="711" y="0.0" width="31" height="33"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="　">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="ZAg-zZ-guj"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="OUi-AS-qC1"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g24-c8-oSS">
-                                        <rect key="frame" x="754.5" y="0.0" width="31.5" height="33"/>
+                                        <rect key="frame" x="742" y="0.0" width="31" height="33"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <state key="normal" title="F＃">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="Button:" destination="BYZ-38-t0r" eventType="touchDragInside" id="6tS-0j-cSg"/>
-                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchDown" id="EEe-B1-cq6"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1091,37 +863,92 @@
                         <constraints>
                             <constraint firstItem="cpo-Lp-Erx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="4h0-DT-n22"/>
                             <constraint firstItem="mxC-Or-FvQ" firstAttribute="trailing" secondItem="tKv-Gx-vnA" secondAttribute="trailing" constant="15" id="Agi-1Z-aRK"/>
-                            <constraint firstItem="GnC-lZ-ore" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CZi-Dv-Ohc"/>
-                            <constraint firstItem="tKv-Gx-vnA" firstAttribute="leading" secondItem="mxC-Or-FvQ" secondAttribute="leading" constant="-20" id="HaZ-Lm-aEx"/>
+                            <constraint firstItem="tKv-Gx-vnA" firstAttribute="leading" secondItem="mxC-Or-FvQ" secondAttribute="leading" constant="-25" id="HaZ-Lm-aEx"/>
                             <constraint firstItem="tKv-Gx-vnA" firstAttribute="leading" secondItem="1py-tb-kxE" secondAttribute="leading" id="I5F-r8-lgd"/>
                             <constraint firstItem="GnC-lZ-ore" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IPb-P8-KzY"/>
-                            <constraint firstItem="GnC-lZ-ore" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LaK-yb-AHa"/>
                             <constraint firstItem="5yQ-sX-b4k" firstAttribute="top" secondItem="XcW-4B-wFU" secondAttribute="top" constant="30" id="Nxd-UN-gKi"/>
                             <constraint firstItem="5yQ-sX-b4k" firstAttribute="trailing" secondItem="XcW-4B-wFU" secondAttribute="trailing" id="UrG-Fg-pAT"/>
                             <constraint firstItem="mxC-Or-FvQ" firstAttribute="top" secondItem="1py-tb-kxE" secondAttribute="top" constant="30" id="dd0-CP-StZ"/>
                             <constraint firstItem="5yQ-sX-b4k" firstAttribute="leading" secondItem="XcW-4B-wFU" secondAttribute="leading" id="fgk-EV-zGC"/>
-                            <constraint firstItem="tKv-Gx-vnA" firstAttribute="trailing" secondItem="1py-tb-kxE" secondAttribute="trailing" constant="-17" id="jaX-5q-jWD"/>
+                            <constraint firstItem="tKv-Gx-vnA" firstAttribute="trailing" secondItem="1py-tb-kxE" secondAttribute="trailing" constant="-25" id="jaX-5q-jWD"/>
                             <constraint firstItem="GnC-lZ-ore" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jbC-lU-kP3"/>
                             <constraint firstItem="tKv-Gx-vnA" firstAttribute="leading" secondItem="1py-tb-kxE" secondAttribute="leading" id="nqd-Nf-2XM"/>
-                            <constraint firstItem="tKv-Gx-vnA" firstAttribute="bottom" secondItem="1py-tb-kxE" secondAttribute="bottom" constant="-10" id="rMN-lg-e7O"/>
+                            <constraint firstItem="tKv-Gx-vnA" firstAttribute="bottom" secondItem="1py-tb-kxE" secondAttribute="bottom" constant="-18" id="rMN-lg-e7O"/>
                             <constraint firstItem="XcW-4B-wFU" firstAttribute="bottom" secondItem="OXJ-eV-O2V" secondAttribute="bottom" constant="22" id="yMg-Ow-2vM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="button" destination="Trt-oC-o13" id="cVc-ZQ-nEK"/>
-                        <outlet property="button10" destination="drw-ES-Opz" id="psQ-Qs-Ceo"/>
-                        <outlet property="button2" destination="qYk-7a-vir" id="sRi-ab-eRx"/>
-                        <outlet property="button3" destination="qYk-7a-vir" id="BoN-Vm-gnE"/>
-                        <outlet property="button4" destination="UJs-ZW-hVg" id="lQT-aW-xFW"/>
-                        <outlet property="button5" destination="UJs-ZW-hVg" id="qlv-Y2-Z5f"/>
-                        <outlet property="button6" destination="x4g-E8-1nm" id="pDB-Lc-WJs"/>
-                        <outlet property="button7" destination="Lvr-nR-6AT" id="t7k-LW-hfN"/>
-                        <outlet property="button8" destination="pFe-CN-IUC" id="baP-uq-0Lh"/>
-                        <outlet property="button9" destination="G6D-YB-poa" id="MP8-Iu-5x6"/>
+                        <outlet property="BKBbuttonAb1" destination="yWa-gH-K6V" id="oBT-Ru-OwX"/>
+                        <outlet property="BKBbuttonAb2" destination="rED-eI-uNS" id="PJz-6H-Il5"/>
+                        <outlet property="BKBbuttonAb3" destination="xv0-Sf-bAK" id="9Zc-Jb-a9E"/>
+                        <outlet property="BKBbuttonBb1" destination="nbA-q8-U92" id="zk6-eI-MzP"/>
+                        <outlet property="BKBbuttonBb2" destination="6NJ-F1-3oA" id="GNk-js-vav"/>
+                        <outlet property="BKBbuttonBb3" destination="3Ov-7r-clR" id="67G-28-W1n"/>
+                        <outlet property="BKBbuttonDb1" destination="H6d-ws-azu" id="Bz5-f0-g4E"/>
+                        <outlet property="BKBbuttonDb2" destination="6VD-8Z-6Ty" id="5s3-7t-YFS"/>
+                        <outlet property="BKBbuttonDb3" destination="QtG-uh-uK5" id="xbF-UC-zRz"/>
+                        <outlet property="BKBbuttonDb4" destination="Ppg-qy-sPc" id="0fg-TI-Xmx"/>
+                        <outlet property="BKBbuttonEb1" destination="YMF-O0-wd6" id="3Za-VM-hqp"/>
+                        <outlet property="BKBbuttonEb2" destination="5EX-RQ-otz" id="dT2-qO-pfW"/>
+                        <outlet property="BKBbuttonEb3" destination="wfB-cA-wTO" id="tij-et-HmX"/>
+                        <outlet property="BKBbuttonEb4" destination="cFM-7H-8Xv" id="DqV-Yt-hIl"/>
+                        <outlet property="BKBbuttonFS1" destination="MJz-Rl-DDc" id="zja-Qf-rgm"/>
+                        <outlet property="BKBbuttonFS2" destination="cZD-jS-P82" id="z87-Hc-mT4"/>
+                        <outlet property="BKBbuttonFS3" destination="I3Y-Ce-WD8" id="LnO-LH-OC9"/>
+                        <outlet property="BKBbuttonFS4" destination="g24-c8-oSS" id="iQh-Ld-dyx"/>
+                        <outlet property="HMC" destination="Sgn-YK-YeH" id="VVP-Tt-Qe5"/>
+                        <outlet property="HMG" destination="3Ov-7r-clR" id="3CK-LP-KpN"/>
+                        <outlet property="HighBbutton10" destination="7bQ-AM-9i9" id="2au-e3-c0l"/>
+                        <outlet property="HighBbuttonh8" destination="lKb-NS-xWU" id="deF-rK-hbE"/>
+                        <outlet property="HighButton9" destination="v2b-ba-zyb" id="bGQ-I7-sU4"/>
+                        <outlet property="KBbuttonA1" destination="W26-C0-ZOY" id="wpf-EO-BcC"/>
+                        <outlet property="KBbuttonA2" destination="2MK-x9-KEB" id="VAF-ro-zKg"/>
+                        <outlet property="KBbuttonA3" destination="0ba-Zp-tuw" id="fnr-dS-i5J"/>
+                        <outlet property="KBbuttonB1" destination="hD5-r6-lkD" id="frZ-bK-Njf"/>
+                        <outlet property="KBbuttonB2" destination="PYH-Ur-Puj" id="J9R-Yy-igi"/>
+                        <outlet property="KBbuttonB3" destination="vgR-g5-PmJ" id="bgs-BF-Cfo"/>
+                        <outlet property="KBbuttonC1" destination="0sQ-Zn-iFe" id="WIg-Q6-gmW"/>
+                        <outlet property="KBbuttonC2" destination="ZEY-q6-Yva" id="xVI-go-55b"/>
+                        <outlet property="KBbuttonC3" destination="x4v-mj-WGD" id="WbM-v0-jaM"/>
+                        <outlet property="KBbuttonC4" destination="kMS-1l-qnW" id="2Jv-LV-bgp"/>
+                        <outlet property="KBbuttonD1" destination="mo9-My-23e" id="7P5-kP-OVT"/>
+                        <outlet property="KBbuttonD2" destination="Rmg-c6-Zg1" id="wen-By-tg7"/>
+                        <outlet property="KBbuttonD3" destination="cnB-ts-B8H" id="88o-1w-g7C"/>
+                        <outlet property="KBbuttonD4" destination="V3b-y0-ZEZ" id="J3x-N2-yCW"/>
+                        <outlet property="KBbuttonE1" destination="6ic-f3-HPI" id="Dak-GM-QtI"/>
+                        <outlet property="KBbuttonE2" destination="0fZ-pu-cwb" id="GzI-np-3xM"/>
+                        <outlet property="KBbuttonE3" destination="ZZC-uw-njZ" id="sxR-Nb-Ezd"/>
+                        <outlet property="KBbuttonE4" destination="fzB-F2-iaH" id="NaR-4V-fCJ"/>
+                        <outlet property="KBbuttonF1" destination="jbV-Fb-kCV" id="xB7-OQ-AAw"/>
+                        <outlet property="KBbuttonF2" destination="Z1v-31-arc" id="Mer-Hn-N4j"/>
+                        <outlet property="KBbuttonF3" destination="sPD-oM-n5f" id="VBy-fl-AAh"/>
+                        <outlet property="KBbuttonF4" destination="Aks-t7-y2p" id="XH5-nX-UM0"/>
+                        <outlet property="KBbuttonG1" destination="HmT-Cf-gxP" id="x11-ng-mT0"/>
+                        <outlet property="KBbuttonG2" destination="Jmh-9l-f1e" id="9kK-Rf-yfr"/>
+                        <outlet property="KBbuttonG3" destination="0HG-dp-Ox4" id="Z1p-DY-C6V"/>
+                        <outlet property="bendbutton1" destination="1wN-v1-UQb" id="e5n-sY-dmK"/>
+                        <outlet property="bendbutton2" destination="DNQ-sM-fdo" id="EUS-Av-ePH"/>
+                        <outlet property="bendbutton3" destination="bhJ-0V-mGL" id="a2o-5y-Khj"/>
+                        <outlet property="bendbutton4" destination="b1i-Z9-eD6" id="Bbe-Hl-DTa"/>
+                        <outlet property="bendbutton5" destination="OrO-wH-HBT" id="17r-fH-Gmo"/>
+                        <outlet property="bendbutton6" destination="SgM-R0-ytf" id="hA5-IK-IOA"/>
+                        <outlet property="button1" destination="Trt-oC-o13" id="cVc-ZQ-nEK"/>
+                        <outlet property="button10" destination="Wuz-FX-5oA" id="qkW-NR-xun"/>
+                        <outlet property="button7" destination="kxI-HH-xhY" id="koL-5w-b3N"/>
+                        <outlet property="button9" destination="6lf-b1-00o" id="CDK-wM-kpS"/>
+                        <outlet property="underbutton1" destination="PEN-rm-WJ6" id="u5c-2z-Fm8"/>
+                        <outlet property="underbutton10" destination="Wuz-FX-5oA" id="TuB-aX-U5q"/>
+                        <outlet property="underbutton2" destination="Dgf-EQ-nkg" id="hUO-Q8-LV9"/>
+                        <outlet property="underbutton3" destination="Mms-b1-oft" id="1JY-Zg-gAP"/>
+                        <outlet property="underbutton4" destination="UJs-ZW-hVg" id="ALL-wf-jLj"/>
+                        <outlet property="underbutton5" destination="x4g-E8-1nm" id="Uxl-oV-aNr"/>
+                        <outlet property="underbutton6" destination="pFe-CN-IUC" id="zWX-hW-RQ6"/>
+                        <outlet property="underbutton7" destination="k7g-rA-pIc" id="IUi-su-2sr"/>
+                        <outlet property="underbutton8" destination="qYk-7a-vir" id="Jfz-6n-djD"/>
+                        <outlet property="underbutton9" destination="6lf-b1-00o" id="dhc-0A-B2Y"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="202.23214285714286" y="-191.30434782608697"/>
         </scene>

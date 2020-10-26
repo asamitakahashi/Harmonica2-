@@ -16,6 +16,12 @@
 		CE64E8442518473D0017D269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE64E8432518473D0017D269 /* Assets.xcassets */; };
 		CE64E8472518473D0017D269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE64E8452518473D0017D269 /* LaunchScreen.storyboard */; };
 		CEC89E472518EBFE00DF4F09 /* 音階素材 in Resources */ = {isa = PBXBuildFile; fileRef = CEC89E462518EBFE00DF4F09 /* 音階素材 */; };
+		CEFC4B3A25398C6200E9903C /* ミ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4B342537674900E9903C /* ミ.m4a */; };
+		CEFC4B3B25398C6700E9903C /* ファ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4B352537674E00E9903C /* ファ.m4a */; };
+		CEFC4B3C25398C6E00E9903C /* ソ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4B362537675800E9903C /* ソ.m4a */; };
+		CEFC4B3D25398C7200E9903C /* ラ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4B372537675D00E9903C /* ラ.m4a */; };
+		CEFC4B3E25398C7600E9903C /* シ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4B382537676600E9903C /* シ.m4a */; };
+		CEFC4B3F25398C7A00E9903C /* ド　高.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4B392537676C00E9903C /* ド　高.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		CE64E8462518473D0017D269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE64E8482518473D0017D269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC89E462518EBFE00DF4F09 /* 音階素材 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "音階素材"; sourceTree = "<group>"; };
+		CEFC4B342537674900E9903C /* ミ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ミ.m4a"; sourceTree = "<group>"; };
+		CEFC4B352537674E00E9903C /* ファ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ファ.m4a"; sourceTree = "<group>"; };
+		CEFC4B362537675800E9903C /* ソ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ソ.m4a"; sourceTree = "<group>"; };
+		CEFC4B372537675D00E9903C /* ラ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ラ.m4a"; sourceTree = "<group>"; };
+		CEFC4B382537676600E9903C /* シ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "シ.m4a"; sourceTree = "<group>"; };
+		CEFC4B392537676C00E9903C /* ド　高.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ド　高.m4a"; path = "音階素材/ド　高.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,12 @@
 				CE64E8402518473B0017D269 /* Main.storyboard */,
 				CE563B9D251F676F009A5F40 /* ド.m4a */,
 				CE563B9F25204576009A5F40 /* レ.m4a */,
+				CEFC4B342537674900E9903C /* ミ.m4a */,
+				CEFC4B352537674E00E9903C /* ファ.m4a */,
+				CEFC4B362537675800E9903C /* ソ.m4a */,
+				CEFC4B372537675D00E9903C /* ラ.m4a */,
+				CEFC4B382537676600E9903C /* シ.m4a */,
+				CEFC4B392537676C00E9903C /* ド　高.m4a */,
 				CE64E8432518473D0017D269 /* Assets.xcassets */,
 				CE64E8452518473D0017D269 /* LaunchScreen.storyboard */,
 				CE64E8482518473D0017D269 /* Info.plist */,
@@ -134,11 +152,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFC4B3E25398C7600E9903C /* シ.m4a in Resources */,
+				CEFC4B3F25398C7A00E9903C /* ド　高.m4a in Resources */,
 				CE64E8472518473D0017D269 /* LaunchScreen.storyboard in Resources */,
 				CEC89E472518EBFE00DF4F09 /* 音階素材 in Resources */,
 				CE64E8442518473D0017D269 /* Assets.xcassets in Resources */,
 				CE563BA025204576009A5F40 /* レ.m4a in Resources */,
+				CEFC4B3D25398C7200E9903C /* ラ.m4a in Resources */,
+				CEFC4B3B25398C6700E9903C /* ファ.m4a in Resources */,
 				CE563B9E251F6773009A5F40 /* ド.m4a in Resources */,
+				CEFC4B3C25398C6E00E9903C /* ソ.m4a in Resources */,
+				CEFC4B3A25398C6200E9903C /* ミ.m4a in Resources */,
 				CE64E8422518473B0017D269 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
